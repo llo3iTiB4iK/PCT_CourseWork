@@ -2,7 +2,7 @@ from Graph import Graph
 import time
 
 if __name__ == '__main__':
-    graph = Graph(vertices=1000, check_connectivity=False)
+    graph = Graph(vertices=10000)
     start_time = time.time()
     mst = graph.kruskal()
     execution_time = time.time() - start_time
