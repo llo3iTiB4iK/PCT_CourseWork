@@ -20,7 +20,7 @@ def merge(*args):
     return merged
 
 
-def merge_sort(data, *args):
+def merge_sort(data):
     length = len(data)
     if length <= 1:
         return data
